@@ -18,9 +18,14 @@
     <sprite>sprites\spr_reticle</sprite>
     <sprite>sprites\spr_projectile</sprite>
     <sprite>sprites\spr_rope</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_move_state.gml</script>
+    <script>scripts\scr_ledge_grab_state.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="grp_obj_parents">
